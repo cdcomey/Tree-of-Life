@@ -177,8 +177,8 @@ public class Taxon{
 		return s;
 	}
 	
-	// this is only for debugging purposes (though i never even used it for that)
-	/* public String toStringReadable(){
+	// this is only for debugging purposes
+	public String toStringReadable(){
 		String s = "";
 		s += "Name: " + name + ", aka " + commonName + "\n";
 		s += "Rank: " + rank + "\n";
@@ -188,7 +188,7 @@ public class Taxon{
 		s += "is " + (extinct ? "" : "not ") + "extinct\n";
 		
 		return s;
-	} */
+	}
 	
 	// (x,y) specifies top left corner of image if centered is false
 	public void drawMe(Graphics g, int x, int y, int maxWidth, int maxHeight, boolean centered){

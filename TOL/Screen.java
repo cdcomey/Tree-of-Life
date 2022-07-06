@@ -137,7 +137,7 @@ public class Screen extends JPanel implements KeyListener, MouseListener, Action
 		 try (FileInputStream fis = new FileInputStream(treeFile);
                 BufferedInputStream bis = new BufferedInputStream(fis)) {
 		String s = new String(bis.readAllBytes());					// loads the file's contents into a string
-		String[] taxons = s.split("\n\n");									// each element in the array is the text form of a taxon
+		String[] taxons = s.split("end\n\n");									// each element in the array is the text form of a taxon
 		for (int i = 0; i < taxons.length; i++){
 			String[] info = taxons[i].split(";");								// each element is some information about the taxon, eg name, rank
 			
@@ -208,11 +208,11 @@ public class Screen extends JPanel implements KeyListener, MouseListener, Action
 			drawString(g, "Traits", traitsScrollPane);
 			
 			// the selected taxon is drawn above the display, mainly so the user can see the image
-			if (selectedTaxon != null)
-				selectedTaxon.drawMe(g, displayLeftBound + (screenWidth - displayLeftBound)/2, nameField.getY() / 2, screenWidth-displayLeftBound - 2*buffer, nameField.getY() - 4*buffer, true);
+			if (selectedTaxon != null){
+				selectedTaxon.drawMe(g, displayLeftBound + (screenWidth - displayLeftBound)/2, nameField.getY()/2 - 2*fm.getHeight(), screenWidth-displayLeftBound - 2*buffer, nameField.getY() - 4*buffer, true);
+			}
 		} else if (!editMode && selectedTaxon != null){
 			g.setFont(bigFont);
-			System.out.println("check");
 			selectedTaxon.drawMe(g, displayLeftBound + (screenWidth - displayLeftBound)/2, screenHeight/4, screenWidth-displayLeftBound - 2*buffer, screenHeight/2 - 2*buffer, true);
 		}
 		
@@ -538,7 +538,7 @@ public class Screen extends JPanel implements KeyListener, MouseListener, Action
 		} else {
 			while (trueRoot.parent() != null)	// loop finds the true root
 				trueRoot = trueRoot.parent();
-			stack.add(trueRoot);
+			stack.push(trueRoot);
 			while (!stack.isEmpty()){
 				Taxon activeTaxon = stack.pop();
 				for (Taxon each : activeTaxon.children()){
@@ -568,18 +568,17 @@ public class Screen extends JPanel implements KeyListener, MouseListener, Action
 		// this section saves the full tree to a string
 		// System.out.println("\nsaving...");
 		String s = "";
-		while (trueRoot.parent() != null)
-			trueRoot = trueRoot.parent();
-		stack.add(trueRoot);
+		stack = new Stack<Taxon>();	// stack should be empty without this line, but it apparently isnt
+		stack.push(trueRoot);
 		while (!stack.isEmpty()){
 			Taxon activeTaxon = stack.pop();
-			// System.out.println(activeTaxon.name());
+			// System.out.println(counter + " " + activeTaxon.name());
 			for (Taxon each : activeTaxon.children()){
 				// System.out.println("\t" + each.name());
 				stack.push(each);
 			}
 			
-			s += activeTaxon.toString() + "\n\n";
+			s += activeTaxon.toString() + "end\n\n";
 		}
 		
 		// this block saves that string as a text file

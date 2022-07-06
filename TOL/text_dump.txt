@@ -1,0 +1,42 @@
+LUCA
+Every known organism that exists and has ever existed:
+
+-is made of at least one cell
+-acquires its energy from the environment
+-stores energy in chemicals
+-lives on earth
+-uses water as a solvent
+-has a lipoprotein cell envelope
+-uses DNA as genetic material
+-uses ACTG bases in DNA
+-uses ACUG bases in RNA
+-uses a three-letter genetic code (codons)
+-follows the central dogma (DNA -> RNA -> protein)
+-uses 20 core amino acids in its proteins
+-uses ribosomes for translation
+-uses RNA polymerase proteins
+
+These traits are sorted in roughly decreasing order of likelihood of homoplasy. Some of these traits are easily homoplasious, such as using water as a solvent, since it is a common and potent solvent. However, some are very unlikely to have evolved separately, such as the central dogma, 20 amino acids, and ribosomes for translation. This strongly suggests the existence of a Last Universal Common Ancestor (LUCA), though it likely went extinct over a billion years ago. Because all life on earth shares the above features, LUCA likely had all of these as well. Otherwise, it was likely similar to the prokaryotes (bacteria and non-eukaryotic archaea) of today, meaning it would have no nucleus, reproduce via binary fission, have circular DNA, and be haploid.
+
+Archaea
+The number of primary divisions of living things has been revised several times throughout the history of biology. In 1977, American microbiologist Carl Woese discovered that a group of microorganisms previously considered a type of bacteria were sufficiently different from normal bacteria to warrant its own domain, which he called archaea. For example, most bacterial cell walls contain a polymer called peptidoglycan, which is absent in archaea, instead having pseudopeptidoglycan. For many years, it was said that the three major domains of life were Bacteria, Archaea, and Eukarya.
+
+However, in 2015 researchers discovered a genus of archaea called Lokiarchaeota, which is more closely related to eukaryotes than they are to other archaea. This suggests that eukaryotes are actually a subset of archaea, and that non-eukaryotic archaea are paraphyletic. This gave rise to today's Two Domain Theory, that life is composed of Bacteria and Archaea.
+
+Eukarya
+Eukaryotes are organisms with a nucleus, an organelle that contains the cell's DNA. Eukaryotic reproduction is complex. Eukaryotic DNA is linear, and is stored amidst protein complexes in a mass called chromatin in the nucleus. For at least part of their life cycle, eukaryotes are diploid, meaning that they have two copies of each chromosome in the nucleus, one set from each of its parents. Cells can reproduce either through mitosis or meiosis. Mitotic division involves a single cell growing in size, duplicating its DNA and organelles, moving each set to different halves of the cell, then splitting in two, creating two new cells generally identical to the original. Meiotic division typically involves a diploid or polyploid (more than two copies of DNA) cell dividing into two or more haploid cells. Meiosis is typically associated with sexual reproduction, as it is what produces gametes.
+
+Eukaryotes tend to be much larger than other organisms, and contain several more types of organelles. They have a complex cytoskeleton, which provides structural support. They have an endoplasmic reticulum, which houses the ribosomes and produces a variety of substances, like the lipids used in the plasma membrane. They have a Golgi body, which envelops proteins produced in the endoplasmic reticulum into vesicles to be transported to where they are needed. The lysosomes are highly acidic and break down unwanted materials to be removed from the cell. The mitochondrion uses cellular respiration to produce ATP, which is used as the cell's primary energy source.
+
+In summary, eukaryotes:
+
+-have a nucleus
+-are diploid in at least part of their life cycle
+-have linear DNA
+-have chromatin
+-reproduce via mitosis and meiosis
+-have a mitochondrion
+-have golgi bodies
+-have lysosomes
+-have an endoplasmic reticulum
+-have a complex cytoskeleton

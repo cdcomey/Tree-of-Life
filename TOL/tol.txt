@@ -1,158 +1,190 @@
-LUCA;Last Universal Common Ancestor;Unranked;null;lucatest6;???;true;
+LUCA;Last Universal Common Ancestor;Unranked;null;Every known organism that exists and has ever existed:
 
-Archaea;???;Unranked;LUCA;archaeatest9;???;false;
+-is made of at least one cell
+-acquires its energy from the environment
+-stores energy in chemicals
+-lives on earth
+-uses water as a solvent
+-has a lipoprotein cell envelope
+-uses DNA as genetic material
+-uses ACTG bases in DNA
+-uses ACUG bases in RNA
+-uses a three-letter genetic code (codons)
+-follows the central dogma (DNA -> RNA -> protein)
+-uses 20 core amino acids in its proteins
+-uses ribosomes for translation
+-uses RNA polymerase proteins
 
-Eukarya;???;Domain;Archaea;???;???;false;
+These traits are sorted in roughly decreasing order of likelihood of homoplasy. Some of these traits are easily homoplasious, such as using water as a solvent, since it is a common and potent solvent. However, some are very unlikely to have evolved separately, such as the central dogma, 20 amino acids, and ribosomes for translation. This strongly suggests the existence of a Last Universal Common Ancestor (LUCA), though it likely went extinct over a billion years ago. Because all life on earth shares the above features, LUCA likely had all of these as well. Otherwise, it was likely similar to the prokaryotes (bacteria and non-eukaryotic archaea) of today, meaning it would have no nucleus, reproduce via binary fission, have circular DNA, and be haploid.;???;true;end
 
-Diphoda;???;Unranked;Eukarya;???;???;false;
+Archaea;???;Unranked;LUCA;The number of primary divisions of living things has been revised several times throughout the history of biology. In 1977, American microbiologist Carl Woese discovered that a group of microorganisms previously considered a type of bacteria were sufficiently different from normal bacteria to warrant its own domain, which he called archaea. For example, most bacterial cell walls contain a polymer called peptidoglycan, which is absent in archaea, instead having pseudopeptidoglycan. For many years, it was said that the three major domains of life were Bacteria, Archaea, and Eukarya.
 
-Diaphoretickes;???;Unranked;Diphoda;???;???;false;
+However, in 2015 researchers discovered a genus of archaea called Lokiarchaeota, which is more closely related to eukaryotes than they are to other archaea. This suggests that eukaryotes are actually a subset of archaea, and that non-eukaryotic archaea are paraphyletic. This gave rise to today's Two Domain Theory, that life is composed of Bacteria and Archaea.;???;false;end
 
-Archaeplastida;???;???;Diaphoretickes;???;???;false;
+Eukarya;???;Domain;Archaea;Eukaryotes are organisms with a nucleus, an organelle that contains the cell's DNA. Eukaryotic reproduction is complex. Eukaryotic DNA is linear, and is stored amidst protein complexes in a mass called chromatin in the nucleus. For at least part of their life cycle, eukaryotes are diploid, meaning that they have two copies of each chromosome in the nucleus, one set from each of its parents. Cells can reproduce either through mitosis or meiosis. Mitotic division involves a single cell growing in size, duplicating its DNA and organelles, moving each set to different halves of the cell, then splitting in two, creating two new cells generally identical to the original. Meiotic division typically involves a diploid or polyploid (more than two copies of DNA) cell dividing into two or more haploid cells. Meiosis is typically associated with sexual reproduction, as it is what produces gametes.
 
-unnamed1;???;???;Archaeplastida;???;???;false;
+Eukaryotes tend to be much larger than other organisms, and contain several more types of organelles. They have a complex cytoskeleton, which provides structural support. They have an endoplasmic reticulum, which houses the ribosomes and produces a variety of substances, like the lipids used in the plasma membrane. They have a Golgi body, which envelops proteins produced in the endoplasmic reticulum into vesicles to be transported to where they are needed. The lysosomes are highly acidic and break down unwanted materials to be removed from the cell. The mitochondrion uses cellular respiration to produce ATP, which is used as the cell's primary energy source.
 
-Viridiplantae;Green plants;Kingdom;unnamed1;???;???;false;
+In summary, eukaryotes:
 
-Streptophyta;???;Unranked;Viridiplantae;???;???;false;
+-have a nucleus
+-are diploid in at least part of their life cycle
+-have linear DNA
+-have chromatin
+-reproduce via mitosis and meiosis
+-have a mitochondrion
+-have golgi bodies
+-have lysosomes
+-have an endoplasmic reticulum
+-have a complex cytoskeleton;???;false;end
 
-Embryophyta;Land plants;Unranked;Streptophyta;???;???;false;
+Diphoda;???;Unranked;Eukarya;???;???;false;end
 
-Tracheophyta;Vascular plants;Unranked;Embryophyta;???;???;false;
+Diaphoretickes;???;Unranked;Diphoda;???;???;false;end
 
-Euphyllophyta;True leafy plants;Unranked;Tracheophyta;???;???;false;
+Archaeplastida;???;???;Diaphoretickes;???;???;false;end
 
-Spermatophyta;Seed plants;Unranked;Euphyllophyta;???;???;false;
+Rhodophyta+Viridiplantae;???;???;Archaeplastida;???;???;false;end
 
-Angiospermae;Flowering plants;Phylum;Spermatophyta;???;???;false;
+Viridiplantae;Green plants;Kingdom;Rhodophyta+Viridiplantae;???;???;false;end
 
-Gymnospermae;???;Phylum;Spermatophyta;???;???;false;
+Streptophyta;???;Unranked;Viridiplantae;???;???;false;end
 
-Monilophyta;Ferns and allies;Phylum;Euphyllophyta;???;???;false;
+Embryophyta;Land plants;Unranked;Streptophyta;???;???;false;end
 
-Lycophyta;???;Phylum;Tracheophyta;???;???;false;
+Tracheophyta;Vascular plants;Unranked;Embryophyta;???;???;false;end
 
-Bryophyta;Non-vascular plants;Unranked;Embryophyta;???;???;false;
+Euphyllophyta;True leafy plants;Unranked;Tracheophyta;???;???;false;end
 
-Setaphyta;Mosses+Liverworts;Unranked;Bryophyta;???;???;false;
+Spermatophyta;Seed plants;Unranked;Euphyllophyta;???;???;false;end
 
-Marchantiophyta;Liverworts;Phylum;Setaphyta;???;???;false;
+Angiospermae;Flowering plants;Phylum;Spermatophyta;???;???;false;end
 
-Mosses;???;Phylum;Setaphyta;???;???;false;
+Gymnospermae;???;Phylum;Spermatophyta;???;???;false;end
 
-Anthocerotophyta;Hornworts;Phylum;Bryophyta;???;???;false;
+Monilophyta;Ferns and allies;Phylum;Euphyllophyta;???;???;false;end
 
-Charales;???;Phylum;Streptophyta;???;???;false;
+Lycophyta;???;Phylum;Tracheophyta;???;???;false;end
 
-Chlorophyta;???;Phylum;Viridiplantae;???;???;false;
+Bryophyta;Non-vascular plants;Unranked;Embryophyta;???;???;false;end
 
-Rhodophyta;Red algae;Unranked;unnamed1;???;???;false;
+Setaphyta;Mosses+Liverworts;Unranked;Bryophyta;???;???;false;end
 
-Glaucophyta;???;???;Archaeplastida;???;???;false;
+Marchantiophyta;Liverworts;Phylum;Setaphyta;???;???;false;end
 
-SAR supergroup;???;Kingdom;Diaphoretickes;???;???;false;
+Mosses;???;Phylum;Setaphyta;???;???;false;end
 
-Excavata;???;Kingdom;Diphoda;???;???;false;
+Anthocerotophyta;Hornworts;Phylum;Bryophyta;???;???;false;end
 
-Amorphea;???;Unranked;Eukarya;???;???;false;
+Charales;???;Phylum;Streptophyta;???;???;false;end
 
-Opisthokonta;???;???;Amorphea;???;???;false;
+Chlorophyta;???;Phylum;Viridiplantae;???;???;false;end
 
-Choanozoa;???;???;Opisthokonta;???;???;false;
+Rhodophyta;Red algae;Unranked;Rhodophyta+Viridiplantae;???;???;false;end
 
-Metazoa;Animals;Kingdom;Choanozoa;???;???;false;
+Glaucophyta;???;???;Archaeplastida;???;???;false;end
 
-Eumetazoa;???;Unranked;Metazoa;???;???;false;
+SAR supergroup;???;Kingdom;Diaphoretickes;???;???;false;end
 
-ParaHoxozoa;???;Unranked;Eumetazoa;???;???;false;
+Excavata;???;Kingdom;Diphoda;???;???;false;end
 
-Cnidaria+Placozoa;???;Unranked;ParaHoxozoa;???;???;false;
+Amorphea;???;Unranked;Eukarya;???;???;false;end
 
-Cnidaria;???;Phylum;Cnidaria+Placozoa;???;???;false;
+Opisthokonta;???;???;Amorphea;???;???;false;end
 
-Placozoa;???;Phylum;Cnidaria+Placozoa;???;???;false;
+Choanozoa;???;???;Opisthokonta;???;???;false;end
 
-Bilateria;???;Unranked;ParaHoxozoa;???;???;false;
+Metazoa;Animals;Kingdom;Choanozoa;???;https://upload.wikimedia.org/wikipedia/commons/b/b6/Reef3859_-_Flickr_-_NOAA_Photo_Library.jpg;false;end
 
-Deuterostomia;???;Unranked;Bilateria;???;???;false;
+Eumetazoa;???;Unranked;Metazoa;???;???;false;end
 
-Ambulacraria;???;Unranked;Deuterostomia;???;???;false;
+ParaHoxozoa;???;Unranked;Eumetazoa;???;???;false;end
 
-Hemichordata;Acorn worms;Phylum;Ambulacraria;???;???;false;
+Cnidaria+Placozoa;???;Unranked;ParaHoxozoa;???;???;false;end
 
-Echinodermata;???;Phylum;Ambulacraria;???;???;false;
+Cnidaria;???;Phylum;Cnidaria+Placozoa;???;???;false;end
 
-Chordata;???;Phylum;Deuterostomia;???;???;false;
+Placozoa;???;Phylum;Cnidaria+Placozoa;???;???;false;end
 
-Protostomia;???;Unranked;Bilateria;???;???;false;
+Bilateria;???;Unranked;ParaHoxozoa;???;???;false;end
 
-Ecdysozoa;???;Unranked;Protostomia;???;???;false;
+Deuterostomia;???;Unranked;Bilateria;???;???;false;end
 
-Priapulids+;???;Unranked;Ecdysozoa;???;???;false;
+Ambulacraria;???;Unranked;Deuterostomia;???;???;false;end
 
-Kinorhynchs+Loriciferans;???;Unranked;Priapulids+;???;???;false;
+Hemichordata;Acorn worms;Phylum;Ambulacraria;???;???;false;end
 
-Loriciferans;???;Phylum;Kinorhynchs+Loriciferans;???;???;false;
+Echinodermata;???;Phylum;Ambulacraria;???;???;false;end
 
-Kinorhynchs;???;Phylum;Kinorhynchs+Loriciferans;???;???;false;
+Chordata;???;Phylum;Deuterostomia;???;???;false;end
 
-Priapulids;???;Phylum;Priapulids+;???;???;false;
+Protostomia;???;Unranked;Bilateria;???;???;false;end
 
-Nematoida+Panarthropoda;???;Unranked;Ecdysozoa;???;???;false;
+Ecdysozoa;???;Unranked;Protostomia;???;???;false;end
 
-Nematoida;???;Unranked;Nematoida+Panarthropoda;???;???;false;
+Priapulids+;???;Unranked;Ecdysozoa;???;???;false;end
 
-Nematomorpha;Horsehair worms;Phylum;Nematoida;???;???;false;
+Kinorhynchs+Loriciferans;???;Unranked;Priapulids+;???;???;false;end
 
-Nematoda;Roundworms;Phylum;Nematoida;???;???;false;
+Loriciferans;???;Phylum;Kinorhynchs+Loriciferans;???;???;false;end
 
-Panarthropoda;???;Unranked;Nematoida+Panarthropoda;???;???;false;
+Kinorhynchs;???;Phylum;Kinorhynchs+Loriciferans;???;???;false;end
 
-Lobopedia+Tactopoda;???;Unranked;Panarthropoda;???;???;false;
+Priapulids;???;Phylum;Priapulids+;???;???;false;end
 
-Tactopoda;???;Unranked;Lobopedia+Tactopoda;???;???;false;
+Nematoida+Panarthropoda;???;Unranked;Ecdysozoa;???;???;false;end
 
-Arthropoda;???;Phylum;Tactopoda;???;???;false;
+Nematoida;???;Unranked;Nematoida+Panarthropoda;???;???;false;end
 
-Tardigrada;???;Phylum;Tactopoda;???;???;false;
+Nematomorpha;Horsehair worms;Phylum;Nematoida;???;???;false;end
 
-Lobopedia;???;Phylum;Lobopedia+Tactopoda;???;???;true;
+Nematoda;Roundworms;Phylum;Nematoida;???;???;false;end
 
-Onychopohora;Velvet worms;Phylum;Panarthropoda;???;???;false;
+Panarthropoda;???;Unranked;Nematoida+Panarthropoda;???;???;false;end
 
-Spiralia;???;Unranked;Protostomia;???;???;false;
+Lobopedia+Tactopoda;???;Unranked;Panarthropoda;???;???;false;end
 
-Gnathifera;???;Unranked;Spiralia;???;???;false;
+Tactopoda;???;Unranked;Lobopedia+Tactopoda;???;???;false;end
 
-Chaetognatha;Arrow worms;Phylum;Gnathifera;???;???;false;
+Arthropoda;???;Phylum;Tactopoda;???;???;false;end
 
-Rotifera;???;Phylum;Gnathifera;???;???;false;
+Tardigrada;???;Phylum;Tactopoda;???;???;false;end
 
-Platytrochozoa;???;Unranked;Spiralia;???;???;false;
+Lobopedia;???;Phylum;Lobopedia+Tactopoda;???;???;true;end
 
-Lophotrochozoa;???;Unranked;Platytrochozoa;???;???;false;
+Spiralia;???;Unranked;Protostomia;???;???;false;end
 
-Mollusca+Nemertea;???;Unranked;Lophotrochozoa;???;???;false;
+Gnathifera;???;Unranked;Spiralia;???;???;false;end
 
-Nemertea;Ribbon worms;Phylum;Mollusca+Nemertea;???;???;false;
+Chaetognatha;Arrow worms;Phylum;Gnathifera;???;???;false;end
 
-Mollusca;???;Phylum;Mollusca+Nemertea;???;???;false;
+Rotifera;???;Phylum;Gnathifera;???;???;false;end
 
-Annelida;Segmented worms;Phylum;Lophotrochozoa;???;???;false;
+Platytrochozoa;???;Unranked;Spiralia;???;???;false;end
 
-Platyhelminthes;Flatworms;Phylum;Platytrochozoa;???;???;false;
+Lophotrochozoa;???;Unranked;Platytrochozoa;???;???;false;end
 
-Ctenophora;Comb Jellies;Phylum;Eumetazoa;???;???;false;
+Mollusca+Nemertea;???;Unranked;Lophotrochozoa;???;???;false;end
 
-Porifera;Sponges;Phylum;Metazoa;???;???;false;
+Nemertea;Ribbon worms;Phylum;Mollusca+Nemertea;???;???;false;end
 
-Choanoflagellates;???;???;Choanozoa;???;???;false;
+Mollusca;???;Phylum;Mollusca+Nemertea;???;???;false;end
 
-Fungi;???;Kingdom;Opisthokonta;???;???;false;
+Annelida;Segmented worms;Phylum;Lophotrochozoa;???;???;false;end
 
-Amoebozoa;Amoebas;Kingdom;Amorphea;???;???;false;
+Platyhelminthes;Flatworms;Phylum;Platytrochozoa;???;???;false;end
 
-Non-eukaryotic archaea;???;Domain;Archaea;???;???;false;
+Ctenophora;Comb Jellies;Phylum;Eumetazoa;???;???;false;end
 
-Bacteria;???;Domain;LUCA;???;???;false;
+Porifera;Sponges;Phylum;Metazoa;???;???;false;end
+
+Choanoflagellates;???;???;Choanozoa;???;???;false;end
+
+Fungi;???;Kingdom;Opisthokonta;???;???;false;end
+
+Amoebozoa;Amoebas;Kingdom;Amorphea;???;???;false;end
+
+Non-eukaryotic archaea;???;Domain;Archaea;???;???;false;end
+
+Bacteria;???;Domain;LUCA;???;???;false;end
 
